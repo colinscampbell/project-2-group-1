@@ -6,6 +6,13 @@ Team Members:
 * Hamilton Cha
 * Prina Thaker
 
+Group Focus:
+* Colin Campbell - Fundamentals / PPT
+* Omar - Fundamentals
+* Hamilton Cha - Security Data
+* Prina Thaker - Prices
+
+USING 
 
 Idea: Financial Analysis Database
 
@@ -18,6 +25,7 @@ Consolidate Data Available at New York Stock Exchange | Kaggle, consisting of 4 
 * Securities
 * Fundamentals
 
+Located here https://www.kaggle.com/dgawlik/nyse?select=securities.csv
 
 Extract: Load the 3 tables below into a Pandas Dataframe
 * Split Adjusted Prices
@@ -76,6 +84,7 @@ Transform:
 
 Load:
 * Tables reflecting the above
+* POSTGRES Table
 
 
 Challenge / Extra Credit = Make it update daily
