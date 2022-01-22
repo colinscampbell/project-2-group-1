@@ -1,5 +1,5 @@
 #Specific Files
-config.py
+keys.py
 .ipynb_checkpoints
 
 # Byte-compiled / optimized / DLL files
