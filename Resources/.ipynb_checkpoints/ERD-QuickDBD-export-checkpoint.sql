@@ -2,7 +2,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "fundamentals_v2" (
+CREATE TABLE "Ticker" (
     "ticker" VARCHAR(10)   NOT NULL,
     "company_name" VARCHAR(55)   NOT NULL,
     "industry" VARCHAR(255)   NOT NULL,
