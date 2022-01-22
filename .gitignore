@@ -1,6 +1,9 @@
 #Specific Files
 keys.py
 .ipynb_checkpoints
+.DS_Store
+.DS_store
+keys.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
