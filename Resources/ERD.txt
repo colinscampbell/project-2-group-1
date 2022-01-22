@@ -1,0 +1,26 @@
+Ticker
+-
+ticker VARCHAR(10) PK
+company_name VARCHAR(55)
+industry VARCHAR(255)
+sub_industry VARCHAR(255)
+
+
+Split_Adjusted_Prices
+-
+ticker VARCHAR(10) PK
+Volume INT
+Close MONEY
+Open MONEY
+High MONEY
+Low MONEY
+
+
+Fundamentals
+-
+ticker VARCHAR(10) PK
+Cost_of_Revenue MONEY
+EBIT MONEY
+EBITDA MONEY
+Net_Cash_Flow MONEY
+Operating_Income MONEY
