@@ -53,8 +53,8 @@ Transform:
    * Check if the data is not null
    * Calculate Intraday Range (Open - Close)
    * Calculate Daily Volatility (High - Low)
-   * Find 12 months rolling average of open price
-   * Find 12 months rolling average of close price
+   * Find 1 month rolling average of open price
+   * Find 1 month rolling average of close price
 
 * Security Data:
    * Ticker + Industry + Sub Industry + Company Name
