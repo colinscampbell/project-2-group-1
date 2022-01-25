@@ -1,8 +1,12 @@
 #Specific Files
 keys.py
+*/.ipynb_checkpoints/*
 .ipynb_checkpoints
 .DS_Store
 .DS_store
+
+__pycache__
+
 keys.py
 
 # Byte-compiled / optimized / DLL files
@@ -83,6 +87,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # IPython
 profile_default/

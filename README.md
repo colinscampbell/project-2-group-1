@@ -50,12 +50,12 @@ Extract: Load the 3 tables below into a Pandas Dataframe
 
 Transform:
 * Prices:
+   * Check if the data is not null
    * Calculate Intraday Range (Open - Close)
    * Calculate Daily Volatility (High - Low)
-   * Find 7 day average prior to earnings
-   * Find 31 day average prior to earnings
-   * Find 7 day average after earnings
-   * Find 31 day average after earnings
+   * Find 1 month rolling average of open price
+   * Find 1 month rolling average of close price
+
 * Security Data:
    * Ticker + Industry + Sub Industry + Company Name
    * Becomes 3 tables:
